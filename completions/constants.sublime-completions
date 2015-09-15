@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "504 WordPress Constants",
+    "comment": "509 WordPress Constants",
     "completions": [
         {
             "trigger": "ABSPATH\tWP Constant",
@@ -37,6 +37,14 @@
         {
             "trigger": "ARRAY_N\tWP Constant",
             "contents": "ARRAY_N"
+        },
+        {
+            "trigger": "ATOM\tWP Constant",
+            "contents": "ATOM"
+        },
+        {
+            "trigger": "ATOM\tWP Constant",
+            "contents": "ATOM"
         },
         {
             "trigger": "ATOM\tWP Constant",
@@ -1507,6 +1515,14 @@
             "contents": "RSS"
         },
         {
+            "trigger": "RSS\tWP Constant",
+            "contents": "RSS"
+        },
+        {
+            "trigger": "RSS\tWP Constant",
+            "contents": "RSS"
+        },
+        {
             "trigger": "SCRIPT_DEBUG\tWP Constant",
             "contents": "SCRIPT_DEBUG"
         },
@@ -1917,6 +1933,10 @@
         {
             "trigger": "WP_DEFAULT_THEME\tWP Constant",
             "contents": "WP_DEFAULT_THEME"
+        },
+        {
+            "trigger": "WP_FEATURE_BETTER_PASSWORDS\tWP Constant",
+            "contents": "WP_FEATURE_BETTER_PASSWORDS"
         },
         {
             "trigger": "WP_IMPORTING\tWP Constant",

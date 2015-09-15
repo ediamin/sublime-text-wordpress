@@ -6,19 +6,19 @@ Sublime Text WordPress Package is a collection of WordPress snippets and autocom
 
 Autocomplete for:
 
-    WP version : 4.3
+    WP version : 4.3.1
 
-    Functions    : 2506
-    Filters      : 1107
-    Actions      : 533
-    Classes      : 245
-    Constants    : 504
-    Capabilities : WordPress Core Capabilities
+    Functions    : 2531
+    Filters      : 1162
+    Actions      : 553
+    Classes      : 260
+    Constants    : 509
+    Capabilities : WordPress Core Capabilities ( 57 )
 
 
 ### Notes
 
-Deprecated functions have been removed
+Deprecated functions, constants, classes, hooks ( Actions or Filters ) or Themes have been removed
 
 On some cause the first "tab" deletes all parameters instead of having to tab through each one:
 
@@ -45,8 +45,6 @@ Include Akismet v3.1.3, Default themes for completions
 
 Defaults Themes Versions:
 
-    Classic         : v1.6
-    Default         : v1.7.2
     Twenty Ten      : v2.0
     Twenty Eleven   : v2.2
     Twenty Twelve   : v1.8
@@ -56,7 +54,10 @@ Defaults Themes Versions:
 
 ### Snippets
 
-Use wp-? for view completions
+Use wp-? for view some completions
+Use add_action- for view actions completions
+Use add_filter- for view filters completions
+Or use functions, constants or classes names, for example: plugin_dir... for view function completions
 
 Use ctrl+space for call completions if tag <?php not is defined.
 e.g. for create plugin header in empty file.

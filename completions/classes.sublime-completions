@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "245 WordPress Classes",
+    "comment": "260 WordPress Classes",
     "completions": [
         {
             "trigger": "_WP_Dependency\\tWP Class",
@@ -595,6 +595,10 @@
             "contents": "WP_Customize_Control"
         },
         {
+            "trigger": "WP_Customize_Cropped_Image_Control\\tWP Class",
+            "contents": "WP_Customize_Cropped_Image_Control"
+        },
+        {
             "trigger": "WP_Customize_Filter_Setting\\tWP Class",
             "contents": "WP_Customize_Filter_Setting"
         },
@@ -619,6 +623,54 @@
             "contents": "WP_Customize_Media_Control"
         },
         {
+            "trigger": "WP_Customize_Nav_Menu_Auto_Add_Control\\tWP Class",
+            "contents": "WP_Customize_Nav_Menu_Auto_Add_Control"
+        },
+        {
+            "trigger": "WP_Customize_Nav_Menu_Control\\tWP Class",
+            "contents": "WP_Customize_Nav_Menu_Control"
+        },
+        {
+            "trigger": "WP_Customize_Nav_Menu_Item_Control\\tWP Class",
+            "contents": "WP_Customize_Nav_Menu_Item_Control"
+        },
+        {
+            "trigger": "WP_Customize_Nav_Menu_Item_Setting\\tWP Class",
+            "contents": "WP_Customize_Nav_Menu_Item_Setting"
+        },
+        {
+            "trigger": "WP_Customize_Nav_Menu_Location_Control\\tWP Class",
+            "contents": "WP_Customize_Nav_Menu_Location_Control"
+        },
+        {
+            "trigger": "WP_Customize_Nav_Menu_Name_Control\\tWP Class",
+            "contents": "WP_Customize_Nav_Menu_Name_Control"
+        },
+        {
+            "trigger": "WP_Customize_Nav_Menu_Section\\tWP Class",
+            "contents": "WP_Customize_Nav_Menu_Section"
+        },
+        {
+            "trigger": "WP_Customize_Nav_Menu_Setting\\tWP Class",
+            "contents": "WP_Customize_Nav_Menu_Setting"
+        },
+        {
+            "trigger": "WP_Customize_Nav_Menus\\tWP Class",
+            "contents": "WP_Customize_Nav_Menus"
+        },
+        {
+            "trigger": "WP_Customize_Nav_Menus_Panel\\tWP Class",
+            "contents": "WP_Customize_Nav_Menus_Panel"
+        },
+        {
+            "trigger": "WP_Customize_New_Menu_Control\\tWP Class",
+            "contents": "WP_Customize_New_Menu_Control"
+        },
+        {
+            "trigger": "WP_Customize_New_Menu_Section\\tWP Class",
+            "contents": "WP_Customize_New_Menu_Section"
+        },
+        {
             "trigger": "WP_Customize_Panel\\tWP Class",
             "contents": "WP_Customize_Panel"
         },
@@ -633,6 +685,10 @@
         {
             "trigger": "WP_Customize_Sidebar_Section\\tWP Class",
             "contents": "WP_Customize_Sidebar_Section"
+        },
+        {
+            "trigger": "WP_Customize_Site_Icon_Control\\tWP Class",
+            "contents": "WP_Customize_Site_Icon_Control"
         },
         {
             "trigger": "WP_Customize_Theme_Control\\tWP Class",
@@ -853,6 +909,10 @@
         {
             "trigger": "WP_SimplePie_Sanitize_KSES\\tWP Class",
             "contents": "WP_SimplePie_Sanitize_KSES"
+        },
+        {
+            "trigger": "WP_Site_Icon\\tWP Class",
+            "contents": "WP_Site_Icon"
         },
         {
             "trigger": "WP_Styles\\tWP Class",

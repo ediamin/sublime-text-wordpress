@@ -55,8 +55,11 @@ Defaults Themes Versions:
 ### Snippets
 
 Use wp-? for view some completions
+
 Use add_action- for view actions completions
+
 Use add_filter- for view filters completions
+
 Or use functions, constants or classes names, for example: plugin_dir... for view function completions
 
 Use ctrl+space for call completions if tag <?php not is defined.

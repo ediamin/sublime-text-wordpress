@@ -8,12 +8,12 @@ Autocomplete for:
 
     WP version : 4.3.1
 
-    Functions    : 2531
-    Filters      : 1162
-    Actions      : 553
+    Functions    : 2517
+    Filters      : 1131
+    Actions      : 537
     Classes      : 260
-    Constants    : 509
-    Capabilities : WordPress Core Capabilities ( 57 )
+    Constants    : 503
+    Capabilities : 57 ( WordPress Core Capabilities )
 
 
 ### Notes
@@ -41,7 +41,7 @@ Example of completion file for Hooks:
 This first trigger use add_action- for get all actions and continue by name of the action, returns everything you need to create.
 The second trigger simply use the name and return this name.
 
-Include Akismet v3.1.3, Default themes for completions
+Include Akismet v3.1.4, Default themes for completions
 
 Defaults Themes Versions:
 

@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "553 WordPress Actions",
+    "comment": "537 WordPress Actions",
     "completions": [
         {
             "trigger": "add_action-_admin_menu\tWP Action",
@@ -2083,14 +2083,6 @@
             "contents": "add_action( \"manage_${1:\\{\\$post->post_type\\}}_posts_custom_column\", ${2:\\$function_to_add}${3:, ${4:10}${5:, ${6:2}}} );"
         },
         {
-            "trigger": "add_action-manage_{$post->post_type}_posts_custom_column\tWP Action",
-            "contents": "add_action( \"manage_${1:\\{\\$post->post_type\\}}_posts_custom_column\", ${2:\\$function_to_add}${3:, ${4:10}${5:, ${6:2}}} );"
-        },
-        {
-            "trigger": "add_action-manage_{$post->post_type}_posts_custom_column\tWP Action",
-            "contents": "add_action( \"manage_${1:\\{\\$post->post_type\\}}_posts_custom_column\", ${2:\\$function_to_add}${3:, ${4:10}${5:, ${6:2}}} );"
-        },
-        {
             "trigger": "add_action-manage_comments_custom_column\tWP Action",
             "contents": "add_action( 'manage_comments_custom_column', ${1:\\$function_to_add}${2:, ${3:10}${4:, ${5:2}}} );"
         },
@@ -2115,60 +2107,12 @@
             "contents": "manage_link_custom_column"
         },
         {
-            "trigger": "add_action-manage_link_custom_column\tWP Action",
-            "contents": "add_action( 'manage_link_custom_column', ${1:\\$function_to_add}${2:, ${3:10}${4:, ${5:2}}} );"
-        },
-        {
-            "trigger": "manage_link_custom_column\tWP Action Name",
-            "contents": "manage_link_custom_column"
-        },
-        {
-            "trigger": "add_action-manage_link_custom_column\tWP Action",
-            "contents": "add_action( 'manage_link_custom_column', ${1:\\$function_to_add}${2:, ${3:10}${4:, ${5:2}}} );"
-        },
-        {
-            "trigger": "manage_link_custom_column\tWP Action Name",
-            "contents": "manage_link_custom_column"
-        },
-        {
             "trigger": "add_action-manage_media_custom_column\tWP Action",
             "contents": "add_action( 'manage_media_custom_column', ${1:\\$function_to_add}${2:, ${3:10}${4:, ${5:2}}} );"
         },
         {
             "trigger": "manage_media_custom_column\tWP Action Name",
             "contents": "manage_media_custom_column"
-        },
-        {
-            "trigger": "add_action-manage_media_custom_column\tWP Action",
-            "contents": "add_action( 'manage_media_custom_column', ${1:\\$function_to_add}${2:, ${3:10}${4:, ${5:2}}} );"
-        },
-        {
-            "trigger": "manage_media_custom_column\tWP Action Name",
-            "contents": "manage_media_custom_column"
-        },
-        {
-            "trigger": "add_action-manage_media_custom_column\tWP Action",
-            "contents": "add_action( 'manage_media_custom_column', ${1:\\$function_to_add}${2:, ${3:10}${4:, ${5:2}}} );"
-        },
-        {
-            "trigger": "manage_media_custom_column\tWP Action Name",
-            "contents": "manage_media_custom_column"
-        },
-        {
-            "trigger": "add_action-manage_pages_custom_column\tWP Action",
-            "contents": "add_action( 'manage_pages_custom_column', ${1:\\$function_to_add}${2:, ${3:10}${4:, ${5:2}}} );"
-        },
-        {
-            "trigger": "manage_pages_custom_column\tWP Action Name",
-            "contents": "manage_pages_custom_column"
-        },
-        {
-            "trigger": "add_action-manage_pages_custom_column\tWP Action",
-            "contents": "add_action( 'manage_pages_custom_column', ${1:\\$function_to_add}${2:, ${3:10}${4:, ${5:2}}} );"
-        },
-        {
-            "trigger": "manage_pages_custom_column\tWP Action Name",
-            "contents": "manage_pages_custom_column"
         },
         {
             "trigger": "add_action-manage_pages_custom_column\tWP Action",
@@ -2195,60 +2139,12 @@
             "contents": "manage_posts_custom_column"
         },
         {
-            "trigger": "add_action-manage_posts_custom_column\tWP Action",
-            "contents": "add_action( 'manage_posts_custom_column', ${1:\\$function_to_add}${2:, ${3:10}${4:, ${5:2}}} );"
-        },
-        {
-            "trigger": "manage_posts_custom_column\tWP Action Name",
-            "contents": "manage_posts_custom_column"
-        },
-        {
-            "trigger": "add_action-manage_posts_custom_column\tWP Action",
-            "contents": "add_action( 'manage_posts_custom_column', ${1:\\$function_to_add}${2:, ${3:10}${4:, ${5:2}}} );"
-        },
-        {
-            "trigger": "manage_posts_custom_column\tWP Action Name",
-            "contents": "manage_posts_custom_column"
-        },
-        {
             "trigger": "add_action-manage_sites_custom_column\tWP Action",
             "contents": "add_action( 'manage_sites_custom_column', ${1:\\$function_to_add}${2:, ${3:10}${4:, ${5:2}}} );"
         },
         {
             "trigger": "manage_sites_custom_column\tWP Action Name",
             "contents": "manage_sites_custom_column"
-        },
-        {
-            "trigger": "add_action-manage_sites_custom_column\tWP Action",
-            "contents": "add_action( 'manage_sites_custom_column', ${1:\\$function_to_add}${2:, ${3:10}${4:, ${5:2}}} );"
-        },
-        {
-            "trigger": "manage_sites_custom_column\tWP Action Name",
-            "contents": "manage_sites_custom_column"
-        },
-        {
-            "trigger": "add_action-manage_sites_custom_column\tWP Action",
-            "contents": "add_action( 'manage_sites_custom_column', ${1:\\$function_to_add}${2:, ${3:10}${4:, ${5:2}}} );"
-        },
-        {
-            "trigger": "manage_sites_custom_column\tWP Action Name",
-            "contents": "manage_sites_custom_column"
-        },
-        {
-            "trigger": "add_action-manage_themes_custom_column\tWP Action",
-            "contents": "add_action( 'manage_themes_custom_column', ${1:\\$function_to_add}${2:, ${3:10}${4:, ${5:3}}} );"
-        },
-        {
-            "trigger": "manage_themes_custom_column\tWP Action Name",
-            "contents": "manage_themes_custom_column"
-        },
-        {
-            "trigger": "add_action-manage_themes_custom_column\tWP Action",
-            "contents": "add_action( 'manage_themes_custom_column', ${1:\\$function_to_add}${2:, ${3:10}${4:, ${5:3}}} );"
-        },
-        {
-            "trigger": "manage_themes_custom_column\tWP Action Name",
-            "contents": "manage_themes_custom_column"
         },
         {
             "trigger": "add_action-manage_themes_custom_column\tWP Action",
@@ -3945,22 +3841,6 @@
         {
             "trigger": "wpmuadminresult\tWP Action Name",
             "contents": "wpmuadminresult"
-        },
-        {
-            "trigger": "add_action-wpmublogsaction\tWP Action",
-            "contents": "add_action( 'wpmublogsaction', ${1:\\$function_to_add}${2:, ${3:10}} );"
-        },
-        {
-            "trigger": "wpmublogsaction\tWP Action Name",
-            "contents": "wpmublogsaction"
-        },
-        {
-            "trigger": "add_action-wpmublogsaction\tWP Action",
-            "contents": "add_action( 'wpmublogsaction', ${1:\\$function_to_add}${2:, ${3:10}} );"
-        },
-        {
-            "trigger": "wpmublogsaction\tWP Action Name",
-            "contents": "wpmublogsaction"
         },
         {
             "trigger": "add_action-wpmublogsaction\tWP Action",

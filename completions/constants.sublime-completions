@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "509 WordPress Constants",
+    "comment": "503 WordPress Constants",
     "completions": [
         {
             "trigger": "ABSPATH\tWP Constant",
@@ -37,18 +37,6 @@
         {
             "trigger": "ARRAY_N\tWP Constant",
             "contents": "ARRAY_N"
-        },
-        {
-            "trigger": "ATOM\tWP Constant",
-            "contents": "ATOM"
-        },
-        {
-            "trigger": "ATOM\tWP Constant",
-            "contents": "ATOM"
-        },
-        {
-            "trigger": "ATOM\tWP Constant",
-            "contents": "ATOM"
         },
         {
             "trigger": "ATOM\tWP Constant",
@@ -1505,18 +1493,6 @@
         {
             "trigger": "PO_MAX_LINE_LEN\tWP Constant",
             "contents": "PO_MAX_LINE_LEN"
-        },
-        {
-            "trigger": "RSS\tWP Constant",
-            "contents": "RSS"
-        },
-        {
-            "trigger": "RSS\tWP Constant",
-            "contents": "RSS"
-        },
-        {
-            "trigger": "RSS\tWP Constant",
-            "contents": "RSS"
         },
         {
             "trigger": "RSS\tWP Constant",

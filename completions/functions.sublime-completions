@@ -1,6 +1,6 @@
 {
     "scope": "source.php - variable.other.php",
-    "comment": "2531 WordPress Functions",
+    "comment": "2517 WordPress Functions",
     "completions": [
         {
             "trigger": "__\tWP Function",
@@ -233,10 +233,6 @@
         {
             "trigger": "_get_term_children\tWP Function",
             "contents": "_get_term_children( ${1:\\$term_id}, ${2:\\$terms}, ${3:\\$taxonomy}${4:, ${5:array()}} );"
-        },
-        {
-            "trigger": "_get_term_hierarchy\tWP Function",
-            "contents": "_get_term_hierarchy( ${1:\\$taxonomy} );"
         },
         {
             "trigger": "_get_widget_id_base\tWP Function",
@@ -4379,50 +4375,6 @@
             "contents": "kses_remove_filters();"
         },
         {
-            "trigger": "kubrick_add_theme_page\tWP Function",
-            "contents": "kubrick_add_theme_page();"
-        },
-        {
-            "trigger": "kubrick_header_color\tWP Function",
-            "contents": "kubrick_header_color();"
-        },
-        {
-            "trigger": "kubrick_header_color_string\tWP Function",
-            "contents": "kubrick_header_color_string();"
-        },
-        {
-            "trigger": "kubrick_header_display\tWP Function",
-            "contents": "kubrick_header_display();"
-        },
-        {
-            "trigger": "kubrick_header_display_string\tWP Function",
-            "contents": "kubrick_header_display_string();"
-        },
-        {
-            "trigger": "kubrick_header_image\tWP Function",
-            "contents": "kubrick_header_image();"
-        },
-        {
-            "trigger": "kubrick_header_image_url\tWP Function",
-            "contents": "kubrick_header_image_url();"
-        },
-        {
-            "trigger": "kubrick_lower_color\tWP Function",
-            "contents": "kubrick_lower_color();"
-        },
-        {
-            "trigger": "kubrick_theme_page\tWP Function",
-            "contents": "kubrick_theme_page();"
-        },
-        {
-            "trigger": "kubrick_theme_page_head\tWP Function",
-            "contents": "kubrick_theme_page_head();"
-        },
-        {
-            "trigger": "kubrick_upper_color\tWP Function",
-            "contents": "kubrick_upper_color();"
-        },
-        {
             "trigger": "language_attributes\tWP Function",
             "contents": "language_attributes(${1: ${2:'html'} });"
         },
@@ -7033,14 +6985,6 @@
         {
             "trigger": "upgrade_420\tWP Function",
             "contents": "upgrade_420();"
-        },
-        {
-            "trigger": "upgrade_421\tWP Function",
-            "contents": "upgrade_421();"
-        },
-        {
-            "trigger": "upgrade_422\tWP Function",
-            "contents": "upgrade_422();"
         },
         {
             "trigger": "upgrade_430\tWP Function",

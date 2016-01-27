@@ -2,6 +2,17 @@
 
 Sublime Text WordPress Package is a collection of WordPress snippets and autocompletions for Sublime Text
 
+### ATTENTION
+[23r9i0](https://github.com/23r9i0/sublime-text-wordpress) repo uses default values for function parameters 
+```php
+wp_enqueue_style( $handle, false, array(), false, 'all' );
+```
+while the origin repo [purplefish32](https://github.com/purplefish32/sublime-text-2-wordpress) uses parameter names
+```php
+wp_enqueue_style( $handle, $src, $deps, $ver, $media );
+```
+I forked from 23r9i0 because, I like the original style. Although I don't like the end semicolon with every function, which both of these repo used. I'll remove these semicolons too.
+
 ### Features
 
 Autocomplete for:

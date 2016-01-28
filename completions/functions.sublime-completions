@@ -788,7 +788,7 @@
         },
         {
             "trigger": "add_menu_page\tWP Function",
-            "contents": "add_menu_page( ${1:\\$page_title}, ${2:\\$menu_title}, ${3:\\$capability}, ${4:\\$menu_slug}${5:, ${6:''}${7:, ${8:''}${9:, ${10:null}}}} )"
+            "contents": "add_menu_page( ${1:\\$page_title}, ${2:\\$menu_title}, ${3:\\$capability}, ${4:\\$menu_slug}${5:, ${6:\\$callback_function}${7:, ${8:\\$icon_url}${9:, ${10:\\$position}}}} )"
         },
         {
             "trigger": "add_meta\tWP Function",
@@ -896,7 +896,7 @@
         },
         {
             "trigger": "add_submenu_page\tWP Function",
-            "contents": "add_submenu_page( ${1:\\$parent_slug}, ${2:\\$page_title}, ${3:\\$menu_title}, ${4:\\$capability}, ${5:\\$menu_slug}${6:, ${7:''}} )"
+            "contents": "add_submenu_page( ${1:\\$parent_slug}, ${2:\\$page_title}, ${3:\\$menu_title}, ${4:\\$capability}, ${5:\\$menu_slug}${6:, ${7:\\$callback_function}} )"
         },
         {
             "trigger": "add_theme_page\tWP Function",

@@ -8120,7 +8120,7 @@
         },
         {
             "trigger": "wp_enqueue_script\tWP Function",
-            "contents": "wp_enqueue_script( ${1:\\$handle}${2:, ${3:\\$src}${4:, ${5:\\$deps}${6:, ${7:\\$ver}${8:, ${9:\\$in_footer}}}}} )"
+            "contents": "wp_enqueue_script( ${1:\\$handle}${2:, ${3:\\$src}${4:, ${5:\\$deps}${6:, ${7:\\$ver}${8:, ${9:\\$in_footer}}}}} );"
         },
         {
             "trigger": "wp_enqueue_scripts\tWP Function",
@@ -8128,7 +8128,7 @@
         },
         {
             "trigger": "wp_enqueue_style\tWP Function",
-            "contents": "wp_enqueue_style( ${1:\\$handle}${2:, ${3:\\$src}${4:, ${5:\\$deps}${6:, ${7:\\$ver}${8:, ${9:\\$media}}}}} )"
+            "contents": "wp_enqueue_style( ${1:\\$handle}${2:, ${3:\\$src}${4:, ${5:\\$deps}${6:, ${7:\\$ver}${8:, ${9:\\$media}}}}} );"
         },
         {
             "trigger": "wp_exif_date2ts\tWP Function",
@@ -9224,7 +9224,7 @@
         },
         {
             "trigger": "wp_register_script\tWP Function",
-            "contents": "wp_register_script( ${1:\\$handle}, ${2:\\$src}${3:, ${4:array()}${5:, ${6:false}${7:, ${8:false}}}} )"
+            "contents": "wp_register_script( ${1:\\$handle}${2:, ${3:\\$src}${4:, ${5:\\$deps}${6:, ${7:\\$ver}${8:, ${9:\\$in_footer}}}}} );"
         },
         {
             "trigger": "wp_register_sidebar_widget\tWP Function",
@@ -9232,7 +9232,7 @@
         },
         {
             "trigger": "wp_register_style\tWP Function",
-            "contents": "wp_register_style( ${1:\\$handle}, ${2:\\$src}${3:, ${4:array()}${5:, ${6:false}${7:, ${8:'all'}}}} )"
+            "contents": "wp_register_style( ${1:\\$handle}${2:, ${3:\\$src}${4:, ${5:\\$deps}${6:, ${7:\\$ver}${8:, ${9:\\$media}}}}} );"
         },
         {
             "trigger": "wp_register_widget_control\tWP Function",

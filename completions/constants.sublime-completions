@@ -1915,6 +1915,10 @@
             "contents": "WP_FEATURE_BETTER_PASSWORDS"
         },
         {
+            "trigger": "WP_HOME\tWP Constant",
+            "contents": "WP_HOME"
+        },
+        {
             "trigger": "WP_IMPORTING\tWP Constant",
             "contents": "WP_IMPORTING"
         },
@@ -1969,6 +1973,10 @@
         {
             "trigger": "WP_SETUP_CONFIG\tWP Constant",
             "contents": "WP_SETUP_CONFIG"
+        },
+        {
+            "trigger": "WP_SITEURL\tWP Constant",
+            "contents": "WP_SITEURL"
         },
         {
             "trigger": "WP_UNINSTALL_PLUGIN\tWP Constant",

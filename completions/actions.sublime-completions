@@ -479,12 +479,12 @@
             "contents": "admin_xml_ns"
         },
         {
-            "trigger": "add_action-adminmenu\tWP Action",
-            "contents": "add_action( 'adminmenu', ${1:\\$function_to_add}${2:, ${3:10}} );"
+            "trigger": "add_action-admin_menu\tWP Action",
+            "contents": "add_action( 'admin_menu', ${1:\\$function_to_add}${2:, ${3:10}} );"
         },
         {
-            "trigger": "adminmenu\tWP Action Name",
-            "contents": "adminmenu"
+            "trigger": "admin_menu\tWP Action Name",
+            "contents": "admin_menu"
         },
         {
             "trigger": "add_action-after_db_upgrade\tWP Action",
